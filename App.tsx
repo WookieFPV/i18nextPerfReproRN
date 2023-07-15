@@ -24,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {DemoComponent} from './i18n/DemoComponent';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -33,6 +34,7 @@ function Section({children, title}: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
+      <DemoComponent translationKey={'foo'} />
       <Text
         style={[
           styles.sectionTitle,

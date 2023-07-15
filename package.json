@@ -1,5 +1,5 @@
 {
-  "name": "i18nextPerfReproRN",
+  "name": "i18-next-perf-repro-rn",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,10 +7,15 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "timeTsc": "time tsc",
+    "installOld": "yarn add i18next@^22 react-i18next@^12",
+    "installNew": "yarn add i18next@^23 react-i18next@^13"
   },
   "dependencies": {
+    "i18next": "^23",
     "react": "18.2.0",
+    "react-i18next": "^13",
     "react-native": "0.72.3"
   },
   "devDependencies": {
