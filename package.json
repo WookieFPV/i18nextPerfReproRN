@@ -9,8 +9,8 @@
     "start": "react-native start",
     "test": "jest",
     "timeTsc": "time tsc",
-    "installOld": "yarn add i18next@^22 react-i18next@^12",
-    "installNew": "yarn add i18next@^23 react-i18next@^13"
+    "installOld": "yarn add i18next@^22 react-i18next@^12 >/dev/null",
+    "installNew": "yarn add i18next@^23 react-i18next@^13 >/dev/null"
   },
   "dependencies": {
     "i18next": "^23",
